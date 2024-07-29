@@ -52,6 +52,105 @@ public class Main {
         System.out.println("El resultado es: " + resultado);
     }
     public static void decimo(){
+        byte b = 50;
+        short shortchange = (short) b;
+        System.out.println("El resultado es: " + shortchange);
+    }
+    public static void once(){
+        int x = 10; x += 5;
+        System.out.println("El resultado es: " +x);
+    }
+    public static void doce(){
+        int y = 10;
+        int x = 3;
+        y *= (x + 5);
+        System.out.println("El valor de y es: " + y);
+    }
+    public static void trece(){
+        int a = 15; a %= 4;
+        System.out.println("El resultado es: " +a);
+    }
+    public static void catorce(){
+        int x = 15;
+        int y = 3;
+        x+=y;
+        System.out.println("El resultado es: " +x);
+    }
+    public static void quince(){
+        int x=20;
+        x ^= 2;
+        System.out.println("El resultado es: " +x);
+    }public static void dieciseis(){
+        int x = 5;
+        int y = ++x;
+        System.out.println("El resultado es: " +y);
+    }public static void diecisiete(){
+        int a = 5;
+        System.out.println(a++); System.out.println(a);
+    }public static void dieciocho(){
+    int count = 1;
+        System.out.println(count--);
+    }public static void diecinueve(){
+        int x =4;
+        x = ++x;
+        int y =4;
+        y = y++;
+        System.out.println(x);
+        System.out.println(y);
+    }public static void veinte(){
+        int x = 3; x = x++;
+        System.out.println("El resultado es: " +x);
+    }public static void veintiuno(){
+        int i = 5;
+        i += ++i + i++ + ++i;
+        System.out.println("El resultado es: " +i);
+    }public static void ventidos(){
+        double x = 10.75;
+        int y = (int) x;
+        y++;
+        System.out.println(y);
+    }public static void ventitres(){
+        double d = 5.7;
+        int i = (int)d;
+        i *= 2;
+        System.out.println(i--);
+    }public static void venticuatro(){
+        int x = 10;
+        double y = 0.0;
+        y += (double) x / 2.0;
+        System.out.println("Resultado de la división: " + y);
+    }public static void venticinco(){
+        char c = 'X';
+        c += 32;
+        System.out.println(c);
+    }public static void ventiseis(){
+        long longValor = 12345L;
+
+        short shortValor = (short) longValor;
+
+        shortValor *= 3;
+
+        System.out.println("Resultado después de multiplicar por 3: " + shortValor);
+    }public static void ventisiete(){
+        int x = 10;
+        x += (x++) + (++x);
+        System.out.println("El resultado es: " +x);
+    }public static void ventiocho(){
+        float valorFloat = 10.75f;
+        byte valorByte = (byte) valorFloat;
+        --valorByte;
+        System.out.println("Valor después de predecremento: " + valorByte);
+    }public static void ventinueve(){
+        int i = 257;
+        byte b = (byte)i;
+        System.out.println(b);
+    }public static void treinta(){
+        double i = 10.0;
+        int b = (int)i;
+        b += 5 +5;
+        System.out.println(++b);
 
     }
-}
+    }
+
+
